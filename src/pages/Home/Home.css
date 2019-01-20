@@ -1,0 +1,141 @@
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .padding {
+    padding: 10px 0px 10px 0px !important;
+  }
+  
+  .paddingColor {
+    padding: 10px 0px 10px 0px !important;
+  }
+
+  .paddingColorColor{
+    padding: 0px 0px 10px 0px !important;
+  }
+
+  .product_view .modal-dialog{max-width: 800px; width: 100%;}
+  .pre-cost{text-decoration: line-through; color: #a5a5a5;}
+  .space-ten{padding: 10px 0;}
+  
+  .imageIndex {
+    z-index: 1;
+  }
+
+
+
+
+  input {
+    display: none;
+  }
+  
+  .button {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* .buttonbutton span {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    padding: 10px 10px 10px 10px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 80%;
+    background: red;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    transition: ease .3s;
+  } */
+
+  .button span {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    padding: 10px 10px 10px 10px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    background: #eeeeee;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    transition: ease .3s;
+  }
+  
+  .button span:hover {
+    padding: 10px;
+  }
+  
+  .orange .button span {
+    background: #FF5722;
+  }
+  
+  .amber .button span {
+    background: #FFC107;
+  }
+  
+  .lime .button span {
+    background: #8BC34A;
+  }
+  
+  .teal .button span {
+    background: #009688;
+  }
+  
+  .blue .button span {
+    background: #2196F3;
+  }
+  
+  .indigo .button span {
+    background: #3F51B5;
+  }
+  
+  .layer {
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background: transparent;
+    /*transition: ease .3s;*/
+    z-index: -1;
+  }
+  
+  .orange input:checked ~ .layer {
+    background: #F4511E;
+  }
+  
+  .amber input:checked ~ .layer {
+    background: #FFB300;
+  }
+  
+  .lime input:checked ~ .layer {
+    background: #7CB342;
+  }
+  
+  .teal input:checked ~ .layer {
+    background: #00897B;
+  }
+  
+  .blue input:checked ~ .layer {
+    background: #1E88E5;
+  }
+  
+  .indigo input:checked ~ .layer {
+    background: #3949AB;
+  }
